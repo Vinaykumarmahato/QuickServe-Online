@@ -41,20 +41,71 @@ Whether you need a form filled urgently, documents handled, or a computer repair
 
 ---
 
-## 🛠️ **Tech Stack**  
+## 🤖 **AI Features**
+To enhance the platform's functionality and user experience, QuickServe Online integrates several AI features:
 
-| 🖥️ **Technology**        | 📝 **Purpose**               |  
-|------------------------|---------------------------|  
-| **Java Spring Boot**   | Backend Development       |  
-| **MySQL**              | Database Management       |  
-| **HTML, CSS, JS**      | Frontend Design           |  
-| **React.js**           | Interactive UI            |  
-| **REST API**           | Communication between layers |  
-| **Payment Gateway**    | Razorpay/Paytm Integration |  
-| **StarUML**            | System Design Diagrams    |  
-| **GitHub**             | Version Control           |  
+1. **Smart Service Recommendations**  
+   - Recommends services to customers based on their past bookings and searches.  
+   - **AI Technology**: Collaborative Filtering, Content-Based Recommendation Systems.  
+   - **Tools**: Python `scikit-learn`, Flask for integrating ML models with the backend.  
+
+2. **AI-Based Price Estimation**  
+   - Predicts service costs based on factors like location, service type, and urgency.  
+   - **AI Technology**: Regression Models for price prediction.  
+   - **Tools**: Python `TensorFlow`, `scikit-learn`.  
+
+3. **Chatbot for Customer Support**  
+   - Provides automated responses to customer inquiries (e.g., service status, available providers, pricing).  
+   - **AI Technology**: Natural Language Processing (NLP).  
+   - **Tools**: Dialogflow, Rasa, integrated with React frontend.  
+
+4. **AI-Driven Service Provider Matching**  
+   - Matches customers with the most suitable service providers based on location, skills, and availability.  
+   - **AI Technology**: Classification Algorithms (e.g., Random Forests, Decision Trees).  
+   - **Tools**: Python `scikit-learn`, Pandas for data handling.  
+
+5. **Sentiment Analysis on Reviews**  
+   - Analyzes customer reviews to determine overall satisfaction.  
+   - **AI Technology**: Sentiment Analysis.  
+   - **Tools**: TextBlob, NLTK.  
+
+6. **Fraud Detection in Payments**  
+   - Detects suspicious transactions and prevents fraud in payment processing.  
+   - **AI Technology**: Anomaly Detection algorithms.  
+   - **Tools**: TensorFlow, `scikit-learn`.  
+
+7. **Image Recognition for Document Verification**  
+   - Verifies uploaded documents and service provider photos using AI.  
+   - **AI Technology**: Computer Vision models.  
+   - **Tools**: OpenCV, TensorFlow.  
+
+8. **Predictive Analytics for Demand Forecasting**  
+   - Predicts demand for services during peak hours based on historical data.  
+   - **AI Technology**: Time Series Analysis (ARIMA, LSTM).  
+   - **Tools**: TensorFlow, Python (Pandas, NumPy).  
 
 ---
+
+## 🛠️ **Tech Stack**
+
+| 🖥️ **Technology**       | 📝 **Purpose**                      |  
+|--------------------------|--------------------------------------|  
+| **Java Spring Boot**     | Backend Development                |  
+| **MySQL**                | Database Management                |  
+| **HTML, CSS, JS**        | Frontend Design                    |  
+| **React.js**             | Interactive UI                     |  
+| **REST API**             | Communication between layers       |  
+| **Payment Gateway**      | Razorpay/Paytm Integration         |  
+| **StarUML**              | System Design Diagrams             |  
+| **GitHub**               | Version Control                    |  
+| **Python**               | AI Models and Integrations         |  
+| **scikit-learn**         | Machine Learning Models            |  
+| **TensorFlow**           | Deep Learning Models               |  
+| **OpenCV**               | Image Processing                   |  
+| **Dialogflow/Rasa**      | AI Chatbot                         |  
+
+---
+
 
 ## 📊 **System Design**  
 
